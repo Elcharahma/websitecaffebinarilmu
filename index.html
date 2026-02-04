@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website caffe</title>
+
+    <!--INI CSS-->
+     <link rel="stylesheet" href="style.css">
+
+     <!--INI SYNTAX BOOSTRAP-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-warna">
+    <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">Caffe Nick</a>
+
+    <!--TOGGLE-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story">Our Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#location">Location</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!--HOME-->
+    <section class="home d-flex align-items-center">
+        <div class="container home-content">
+            <div class="row">
+                <div class="col-md-6">
+                        <h1 class="display-4 fw-bold">Welcome to Caffe Nick !!</h1>
+                        <p class="mt-3">
+                            Tempat nyaman untuk ngopi menikmati makanan dan untuk
+                            melihat indahnya senja xixiixi
+                        </p>
+                        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#orderModal">Order Now</button>
+                </div>
+            </div>
+        </div>      
+    </section>
+
+    <!--OUR STORY-->
+
+    <section id="story" class="story-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="kopi1.jpg" class="img-fluid rounded">
+          </div>
+            <div class="col-md-6">
+              <h2 class="fw-bold mb-3">Our Story</h2>
+              <p>
+                Caffe Nick didirikan sebagai tempat nyaman untuk menikmati secangkir kopi hangat.
+                Kami percaya bahwa kopi bukan hanya minuman, tetapi juga bagian dari cerita dan kebersamaan.
+              </p>
+              <p>
+                Berawal dari kecintaan terhadap kopi lokal, kami ingin menghadirkan suasana santai
+                bagi siapa saja yang ingin beristirahat, bekerja, atau berbincang bersama teman.
+              </p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+<!-- MENU -->
+<section id="menu" class="menu-section">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold">Our Menu</h2>
+
+    <div class="menu-scroll">
+
+      
+      <div class="card menu-card">
+        <img src="kopi2.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Custom Cakes</h5>
+          <p class="card-text">Beautiful cakes.</p>
+          <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a>
+        </div>
+      </div>
+
+      <div class="card menu-card">
+        <img src="kopi1.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Espresso</h5>
+          <p class="card-text">Strong coffee.</p>
+          <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a>
+        </div>
+      </div>
+
+       <div class="card menu-card">
+        <img src="kopi3.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Artisan Bread</h5>
+          <p class="card-text">Fresh baked bread.</p>
+          <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a>
+        </div>
+      </div>
+
+      <div class="card menu-card">
+        <img src="kopi4.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5 class="card-title">Sweet Pastries</h5>
+          <p class="card-text">Soft pastries.</p>
+          <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#orderModal">Order</a>
+        </div>
+      </div>
+</section>
+
+      <!--LOCATION-->
+        <section id="location" class="location-section py-5">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-5 mb-4 mb-md-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.321440568649!2d107.68433947356434!3d-6.852018967031146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dd2b1e2073f5%3A0x8065990fce4d5a4!2sPesantren%20Binar%20Ilmu!5e0!3m2!1sid!2sid!4v1770102229402!5m2!1sid!2sid" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">Our Location</h2>
+                    <p><strong>Alamat : </strong> Pondok Buahbatu, Kabupaten Bandung </p>
+                    <p><strong>Jam Buka : </strong> 07.15 - 15.00</p>
+                    <p><strong>Kontak : </strong> 08233779819371 </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+          <!--FOOTER-->
+          <footer class="footer-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold">Caffe Nick</h5>
+                    <p>Tempat nyaman buat Ngopay bersantai bersama teman teman</p>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <h5 class="fw-bold">Menu</h5>
+                  <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#location">Location</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <h5 class="fw-bold">Contact</h5>
+                  <p>WhatsApp : 0829919829372  <br>
+                     Email : caffenick@gmail.com                  
+                  </p>
+                </div>
+
+              </div>
+                <hr>
+                <p class="text-center mb-0">
+                  © 2026 Caffe Nick. All Rights Reserved.
+                </p>
+            </div>
+          </footer>
+
+          <!--MODAL ORDER-->
+          <div class="modal fade" id="orderModal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Order Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label class="form-label"> Nama </label>
+                      <input type="text" class="form-control" placeholder="Masukkan Nama">
+                    </div>
+                     <div class="mb-3">
+                      <label class="form-label"> Menu </label>
+                      <input type="text" class="form-control" placeholder="Nama Menu">
+                    </div>
+                     <div class="mb-3">
+                      <label class="form-label"> Jumlah </label>
+                      <input type="text" class="form-control" placeholder="Jumlah">
+                    </div>
+                  </form>
+                </div>
+
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                  <button class="btn btn-primary" data-bs-dismiss="modal">Pesan</button>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+</body>
+</html>

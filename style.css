@@ -1,0 +1,129 @@
+/*NAVBAR*/
+.home{
+    height: 100vh;
+    background-image: url("kopi6.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.home::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.home-content{
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-warna{
+    background-color: #957C62;
+}
+
+/*OUR STORY*/
+.story-img{
+    margin: 20px;
+}
+.story-section{
+    background-color: #f5ddc3;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/*MENU*/
+.menu-section{
+    background-color: #f8f5f2;
+    padding: 60px 0;
+}
+.menu-scroll{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.menu-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.menu-card{
+    min-width: 250px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    flex-shrink: 0;
+    transition: transform 0.3s;
+}
+.menu-card:hover{
+    transform: translateY(-8px);
+}
+.menu-card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+/*LOCATION*/
+.location-section{
+    padding: 45px 0;
+    background-color: #faeada;
+}
+.location-map{
+    width: 90%;
+    height: 350px;
+    border: 0;
+    border-radius: 15px;
+}
+.location-section h2{
+    color: #6f4e37;
+}
+
+/*FOOTER*/
+.footer-section{
+    background-color: #6f4e37;
+    color: #f8f5f2;
+    padding: 55px 0 30px;
+}
+
+.footer-links{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li{
+    margin-bottom: 8px;
+}
+
+.footer-links a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.footer-links hr{
+    border-color: white;
+}
+
+@media (max-width: 768px) {
+  .home h1 {
+    font-size: 28px;
+  }
+
+  .menu-card img{
+    min-width: 150px;
+  }
+   .menu-card{
+    min-width: 180px;   /* lebih kecil di HP */
+  }
+   .story-section img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+}
